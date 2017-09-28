@@ -1,0 +1,19 @@
+{
+    "name": "jrb/helloworld",
+    "description": "",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JRB\\HelloWorld\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
